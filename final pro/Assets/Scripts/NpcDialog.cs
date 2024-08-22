@@ -22,7 +22,7 @@ public class NpcDialog : MonoBehaviour
 
             await Task.Delay(50);
             
-            // teleport the avatar to standing point
+            // teleport the player to standing point
             avatar.position = standingPoint.position;
             avatar.rotation = standingPoint.rotation;
 
